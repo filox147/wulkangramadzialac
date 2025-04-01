@@ -1,0 +1,92 @@
+body
+{
+	background-color: #525252;
+	color: rgb(0, 195, 255);
+	font-size: 28px;
+	font-family: 'Inconsolata';
+	font-weight: 700;
+}
+
+#pojemnik
+{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#plansza
+{
+	width: 900px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-size: 48px;
+	min-height: 60px;
+}
+
+#szubienica
+{
+	float: left; 
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+}
+
+#alfabet
+{
+	float: right; 
+	width: 420px;
+	text-align: center;
+	min-height: 250px;
+}
+
+.litera
+{
+	width: 30px;
+	height: 30px;
+	text-align:center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid rgb(255, 255, 255);
+	float: left;
+	cursor: pointer;
+	border-radius: 15px;
+}
+
+.litera:hover
+{
+	background-color: #222222;
+	color: white;
+	border: 3px solid white;
+}
+
+.reset
+{
+	color:rgb(255, 0, 0);
+	cursor: pointer;
+	font-size: 48px;
+}
+
+.reset:hover
+{
+	color:white;
+}
+#pojemnik h1 {
+	text-align: center;
+	font-size: 48px;
+	color: rgb(0, 195, 255);
+	margin-bottom: 20px;
+	font-family: 'Inconsolata', monospace;
+}
+
+#pojemnik h3 {
+	text-align: right;
+	font-size: 20px;
+	color: rgb(200, 200, 200);
+}
+hr {
+	border: 0;
+	height: 3px;
+	background: linear-gradient(to right, #02b7ff, #00cff3);
+	margin: 30px 0;
+  }
